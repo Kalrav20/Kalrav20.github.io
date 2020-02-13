@@ -1,0 +1,47 @@
+body {
+    background-image: url("Gifs/reg.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.firstrow {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font: nunito;
+    border-color: transparent;
+    width: 10em;
+    padding: 0.5em;
+    font-weight: bold ;
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font: nunito;
+    border-color: transparent;
+    width: 10em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.headings {
+    color: #F52F56;
+    font-family: nunito;
+    font-weight: bold;
+}
+
+@media (max-width: 925px) {
+    .btn2 {
+        margin-top: 2em;
+    }
+}

@@ -1,0 +1,340 @@
+body , html {
+    margin: 0;
+    padding: 0;
+    font-family: nunito;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.loading-con {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background: url("Gifs/load.gif") center no-repeat #F77268;
+}
+
+h1 {
+    font-size: 6em;
+}
+a {
+    color: transparent;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.social {
+    width: 4em;
+    height: 4em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+
+.footer {
+    padding-top: 4em;
+}
+
+.kl {
+    font-size: 14em;
+    font-family: montserrat;
+    color: white;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+.year {
+    font-family: montserrat;
+    font-size: 9em;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 1em;
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+.brain {
+    font-size: 4em;
+    color: #1D0038;
+}
+.bp {
+    color: #1D0038;
+    padding-top: 5em;
+}
+.cine {
+    font-size: 3.7em;
+    color: #093F7E;
+}
+.cp {
+    color: #075FAE;
+    padding-top: 5em;
+}
+.art {
+    font-size: 5.4em;
+    color: #F52F56;
+}
+.ap {
+    color: #C9CFF3;
+    padding-top: 5em;
+}
+.sing {
+    color: #444EE1;
+}
+.sp {
+    color: #A898EC;
+    padding-top: 5em;
+}
+.dance {
+    color: #FB3D2F;
+}
+.dp {
+    color: #EC6E65;
+    padding-top: 5em;
+}
+.game {
+    color: #FBD6CC;
+}
+.gp {
+    color: #000F14;
+    padding-top: 5em;
+}
+.strength {
+    color: #0D1331;
+    font-size: 4.5em;
+}
+.stp {
+    color: #0A163B;
+    padding-top: 4em;
+}
+.fashion {
+    color: #3C4CF5;
+    font-size: 4.5em;
+}
+.fp {
+    color: #080122;
+    padding-top: 4em;
+}
+
+.landing {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.gifi {
+    filter: blur(3px);
+    width: auto;
+    height: 100vh;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    
+}
+
+.streetimg {
+    filter: blur(4px);
+    width: 100%;
+    height: auto;
+}
+.street {
+    font-size: 14em;
+    font-family: montserrat;
+    color: white;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    text-shadow:
+        -4px -4px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        4px 4px 0 black;
+    opacity: 0.7;
+}
+
+.tresure {
+    font-size: 14em;
+    font-family: montserrat;
+    color: rgb(76, 0, 163);
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    text-shadow:
+        -4px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 4px 0 white;
+    opacity: 0.7;
+}
+
+.connect {
+    font-size: 50px;
+}
+
+.ico {
+    width: 14em;
+    height: 14em;
+}
+.iimt {
+    width: 14em;
+    height: 14em;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font: nunito;
+    font-weight: bold;
+    border-color: transparent;
+}
+
+.nbts {
+    background-color: rgb(255, 5, 109);
+    color: black;
+    border-radius: 50px;
+    font: nunito;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+.nav-link {
+    color: white;
+    font: nunito;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+section:nth-last-of-type(1) { background-image: url("bg/8.jpg"); }
+section:nth-last-of-type(2) { background-image: url("bg/7.jpg"); }
+section:nth-last-of-type(3) { background-image: url("bg/6.jpg"); }
+section:nth-last-of-type(4) { background-image: url("bg/5.jpg"); }
+section:nth-last-of-type(5) { background-image: url("bg/4.jpg"); }
+section:nth-last-of-type(6) { background-image: url("bg/3.jpg"); }
+section:nth-last-of-type(7) { background-image: url("bg/2.jpg"); }
+section:nth-last-of-type(8) { background-image: url("bg/1.jpg"); }
+
+@media (max-width: 600px) {
+    section:nth-last-of-type(1) { background-image: url("bg/8p.jpg"); }
+    section:nth-last-of-type(2) { background-image: url("bg/7p.jpg"); }
+    section:nth-last-of-type(3) { background-image: url("bg/6p.jpg"); }
+    section:nth-last-of-type(4) { background-image: url("bg/5p.jpg"); }
+    section:nth-last-of-type(5) { background-image: url("bg/4p.jpg"); }
+    section:nth-last-of-type(6) { background-image: url("bg/3p.jpg"); }
+    section:nth-last-of-type(7) { background-image: url("bg/2p.jpg"); }
+    section:nth-last-of-type(8) { background-image: url("bg/1p.jpg"); }
+
+    .kl {
+        font-size: 6em;
+        font-family: montserrat;
+        color: white;
+        font-weight: 900;
+        padding-left: 25px;
+        margin: 0;
+    }
+    .street {
+        font-size: 6em;
+    }
+    .year {
+        font-size: 3em;
+        font-weight: 700;
+        padding-left: 25px;
+        margin: 0;
+    }
+    
+   
+    p {
+        padding: 1em;
+        line-height: 1em;
+        font-size: 1.5em;
+    }
+    
+    .brain {
+        font-size: 4em;
+        color: #DB034C;
+    }
+    .bp {
+        color: white;
+        padding-top: 10em;
+    }
+    .cine {
+        font-size: 3.5em;
+        color: #093F7E;
+    }
+    .cp {
+        color: #075FAE;
+        padding-top: 15em;
+    }
+    .art {
+        font-size: 4.5em;
+        color: #F52F56;
+    }
+    .ap {
+        color: #C9CFF3;
+        padding-top: 13em;
+    }
+    .sing {
+        color: #444EE1;
+        font-size: 4.5em;
+    }
+    .sp {
+        color: #A898EC;
+        padding-top: 14em;
+    }
+    .dance {
+        color: #CC0167;
+    }
+    .dp { 
+        color: white;
+        padding-top: 12em;
+    }
+    .game {
+        color: #FBD6CC;
+    }
+    .gp {
+        color: #000F14;
+        padding-top: 12em;
+    }
+    .strength {
+        color: #0D1331;
+        font-size: 3em;
+    }
+    .stp {
+        color: #0A163B;
+        padding-top: 15em;
+    }
+    .fashion {
+        color: black;
+        font-size: 3.5em;
+        padding-top: 2em;
+    }
+    .fp {
+        color: #080122;
+        padding-top: 1em;
+    }
+    .btn {
+        display: none!important;
+    }
+}

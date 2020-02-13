@@ -1,0 +1,141 @@
+body {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0A0025;
+    
+    
+}
+
+body, html {
+    height: 100%;
+}
+
+#vdobg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    padding-top: 200px;
+}
+
+
+.nbts {
+    background-color: rgb(255, 5, 109);
+    color: black;
+    border-radius: 50px;
+    font: nunito;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+.nav-link {
+    color: white;
+    font: nunito;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+.btn {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font: nunito;
+    border-color: transparent;
+    width: 10em;
+    padding: 0.5em; font-weight: bold;
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font: nunito;
+    border-color: transparent;
+    width: 10em;
+    padding: 0.5em; font-weight: bold;
+}
+
+.reg {
+    padding-bottom: 5em;
+}
+
+
+.head1 {
+    font-size: 11em;
+    font-weight: bold;
+    font-family: montserrat;
+    color: white;
+    text-shadow:
+        -2px 21px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    opacity: 0.7;
+}
+
+.pics {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.loading-con {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background: url("Gifs/astronaut.gif") center no-repeat white;
+}
+
+.whole {
+    margin-top: 40em;
+}
+
+
+p {
+    color: #A898EC;
+    font-size: 20px;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-bottom: 1.5em;
+}
+.firstrow {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.headings {
+    color: #444EE1;
+    font-family: nunito;
+    font-weight: bold;
+}
+
+@media (max-width: 925px) {
+    .head1 {
+        font-size: 7em;
+    }
+    .btn2 {
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 700px) {
+    .head {
+        font-size: 4em;
+    }
+
+}
+
