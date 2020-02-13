@@ -257,6 +257,9 @@ section:nth-last-of-type(8) { background-image: url("bg/1.jpg"); }
     .street {
         font-size: 6em;
     }
+    .tresure {
+        font-size: 6em;
+    }
     .year {
         font-size: 3em;
         font-weight: 700;
